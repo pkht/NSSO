@@ -1,0 +1,232 @@
+body {
+    font-family: Arial;
+    font-size: 12px;
+    color: #333333;
+    text-align:center;
+    margin:0px;
+}
+
+h1 {
+    color:#333333;
+    font-size:18px;
+    font-weight:bold;
+}
+h2 {
+    color:#01aef0;
+    font-size:12px;
+    font-weight:bold;
+}
+img {
+    border:0px;
+}
+a {
+    color:#01aef0;
+}
+a:hover {
+    text-decoration:none;
+}
+
+div#header {
+    width:940px;
+    text-align:left;
+    margin:0px auto;
+}
+
+div#main {
+    text-align:left;
+    width:900px;
+    margin:0px auto;
+}
+
+.clear {clear:both}
+/* remove the list style */
+.menu {
+    background:url('images/menu_bkg.jpg') no-repeat;
+    width:900px;
+    height:40px;
+    font-size:14px;
+    font-weight:bold;
+}
+.menu ul {
+	margin:0px 0px 0px 20px;
+	padding:0;
+	list-style:none;
+}
+
+.menu ul li {
+    float:left;
+    display:block;
+    position:relative;
+    z-index:500;
+    padding:12px 0px 0px 0px;
+    height:28px;
+    margin:0px;
+}
+.menu ul li:hover {
+    background-color:#01aef0;
+}
+
+.menu ul li a {
+    display:block;
+    padding:0px 30px 0px 10px;
+    font-weight:700;
+    height:28px;
+    text-decoration:none;
+    color:#fff;
+}
+
+.menu ul li a:hover {
+    color:#fff;
+}
+
+.menu a.selected {
+    
+}
+
+.menu ul.sub-menu {
+    position:absolute;
+    display:none;
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    background-color:#01aef0;
+    width:160px;
+}
+.menu ul.sub-menu li {
+    padding:6px 0px 6px 0px;
+    height:18px;
+    width:160px;
+}
+.menu ul.sub-menu li:hover {
+    background-color:#333333;
+}
+
+.menu ul.sub-menu a {
+    display:block;
+}
+/* fix ie6 small issue */
+/* we should always avoid using hack like this */
+/* should put it into separate file : ) */
+*html .menu ul.sub-menu {
+	margin:0 0 0 -2px;
+}
+
+div#content {
+    margin:20px 30px 0px 0px;
+    width:620px;
+    float:left;
+}
+
+div#sidebar-holder {
+    margin:20px 0px 0px 0px;
+    padding:0px;
+    width:250px;
+    float:right;
+    background:url('images/sidebar_bkg_top.jpg') top no-repeat #333333;
+}
+div#sidebar {
+    margin:10px 10px 0px 10px;
+    /*height:600px;
+    min-height:600px;*/
+}
+div#sidebar_bottom {
+    background:url('images/sidebar_bkg_bottom.jpg') bottom no-repeat #333333;
+    height:10px;
+}
+div#sidebar div {
+    clear:both;
+}
+div#sidebar div#news {
+    padding:10px 0px;
+}
+div#news {
+    color:white;
+}
+div#news h1 {
+    color:white;
+    width:210px;
+    float:left;
+}
+div#news h2 {
+    margin-bottom:0px;
+}
+div#news h2 a {
+    color:white;
+    text-decoration: none;
+}
+div#news span.news_date {
+    color:#01aef0;
+}
+div#news p {
+    margin:5px 0px;
+}
+div#news img {
+    padding:10px 0px;
+}
+div#news div.news_readmore_link {
+    text-align:right;
+}
+form#searchform input {
+    float:left;
+}
+form#searchform input[type=text] {
+    margin:0px;
+    padding:0px;
+    height:22px;
+    width:172px;
+    border:0px;
+    font-size:18px;
+    font-weight:bold;
+    color:#333333;
+    padding:4px;
+}
+form#searchform input[type=image] {
+    width:50px;
+}
+
+div#home_feature_wrapper {
+    margin-top:25px;
+}
+div.home_feature {
+    width:180px;
+    height:180px;
+    background:url('images/home_feature_bkg.jpg') no-repeat;
+    color:white;
+    padding:10px;
+    float:left;
+    margin-right:10px;
+}
+div.home_feature.last {
+    margin-right:0px;
+}
+div.home_feature img {
+    margin-top:5px;
+}
+div.home_feature h3 {
+    margin:5px 0px 0px 0px;
+    padding:0px;
+}
+div.home_feature p {
+    margin:0px;
+}
+div.home_feature a {
+    color:white;
+}
+
+div#footer-holder {
+    background:url('images/footer_bkg_top.jpg') no-repeat top #333333;
+    color:white;
+    margin:25px 0px 15px 0px;
+}
+div#footer {
+    padding:20px 10px 0px 10px;
+}
+div#footer-bottom {
+    height:20px;
+    background:url('images/footer_bkg_bottom.jpg') no-repeat bottom;
+}
+div#footer-info {
+    text-align:right;
+    width:900px;
+    margin-bottom:25px;
+}
