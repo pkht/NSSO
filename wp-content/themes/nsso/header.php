@@ -27,7 +27,13 @@
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/ie6.css" />
 <![endif]-->
 <link rel="Shortcut Icon" href="<?php bloginfo( 'url' ) ?>/favicon.ico">
-<base href="http://pkht.local:8888/nsso/" />
+<?php if( strstr( $_SERVER["HTTP_HOST"], 'pkht' ) ): ?>
+    <base href="http://pkht.local:8888/nsso/" />
+<?php elseif( strstr( $_SERVER["HTTP_HOST"], 'stage' ) ): ?>
+    <base href="http://stage.nsso.org/" />
+<?php else: ?>
+    <base href="http://www.nsso.org/" />
+<?php endif; ?>
 </head>
 
 <body <?php body_class(); ?>>
