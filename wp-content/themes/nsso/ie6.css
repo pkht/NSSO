@@ -1,17 +1,20 @@
-/* 
-    Document   : ie6
-    Created on : Oct 17, 2010, 2:25:21 PM
-    Author     : PKHT
-    Description:
-        Purpose of the stylesheet follows.
-*/
-
-/* 
-   TODO customize this sample style
-   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
-*/
-
-root { 
-    display: block;
+.menu ul li {
+    width:0px;
+    white-space:nowrap;
 }
-
+.menu ul.sub-menu li {
+    padding:10px 0px 0px 0px;
+    height:20px;
+}
+div#news h1 {
+    width:200px;
+}
+div#news img {
+    padding:0px;
+}
+div#quick_links_right {
+    margin-right:20px;
+}
+div#header #latest_tweet {
+    margin-top:10px;
+}

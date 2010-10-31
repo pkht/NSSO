@@ -19,18 +19,40 @@
 		echo " | $site_description";
 
 	?></title>
+
+<?php wp_head(); ?>
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/jquery-1.4.3.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/general.js"></script>
+<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/ie6.css" />
+<![endif]-->
+<link rel="Shortcut Icon" href="<?php bloginfo( 'url' ) ?>/favicon.ico">
+<base href="http://pkht.local:8888/nsso/" />
 </head>
 
 <body <?php body_class(); ?>>
 
 <div id="header">
 
-    <div>
+    <div id="logo">
         <img src="<?php print bloginfo( 'template_url' ) ?>/images/logo.jpg" alt="National Schools Symphony Orchestra" />
     </div>
+
+    <div id="buttons">
+        <a href="<?php print bloginfo('url')?>/contact-us/"><img src="<?php print bloginfo( 'template_url' )?>/images/contact_button.jpg" alt="Contact Us" /></a>
+        <a href="#"><img src="<?php print bloginfo( 'template_url' )?>/images/donate_button.jpg" alt="Contact Us" /></a>
+    </div>
+
+    <div id="latest_tweet">
+        <h1>
+            <img src="<?php bloginfo( 'template_url' )?>/images/twitter_icon_small.jpg" alt="Twitter" />
+            Latest Tweet
+        </h1>
+        <?php aktt_latest_tweet(); ?>
+        <p><a href="#">Follow NSSO on Twitter</a></p>
+    </div>
+
+    <div style="clear:both;"></div>
 
 </div>
 
@@ -40,6 +62,7 @@
     <!-- The main nav -->
     <?php
     wp_nav_menu( array(
+        'menu' => 'Primary Menu',
         'container_class' => 'menu',
         'menu_class'      => '',
     ) );

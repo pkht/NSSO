@@ -14,10 +14,10 @@
                 <span class="news_date"><?php echo date( 'd/m/Y', strtotime( $post['post_date'] ) )?></span>
                 <p>
                     <?php
-                    if( $post['post_exerpt'] )
+                    if( !empty( $post['post_excerpt'] ) )
                         echo $post['post_excerpt'];
                     else
-                        echo substr( $post['post_content'], 0, 100 ) . '...';
+                        echo substr( $post['post_content'], 0, 250 ) . '...';
                     ?>
                 </p>
                 <div class="news_readmore_link"><a href="<?php echo get_permalink($post["ID"]); ?>">Read more</a></div>

@@ -1,3 +1,9 @@
+# BEGIN FAlbum
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^gallery/photos/?([^/]*)?/?([^/]*)?/?([^/]*)?/?([^/]*)?/?([^/]*)?/?([^/]*)?/?([^/]*)?/?([^/]*)?/?$ /nsso/wp-content/plugins/falbum/wp/album.php?$1=$2&$3=$4&$5=$6&$7=$8 [QSA,L]
+</IfModule>
+# END FAlbum
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
@@ -10,3 +16,7 @@ RewriteRule . /nsso/index.php [L]
 </IfModule>
 
 # END WordPress
+
+
+
+
