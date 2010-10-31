@@ -16,16 +16,34 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'nsso_org');
+if( strstr( $_SERVER["HTTP_HOST"], 'pkht' ) )
+{
+    define('DB_NAME', 'nsso_org');
+    define('DB_USER', 'root');
+    define('DB_PASSWORD', 'root');
+    define('DB_HOST', 'localhost:8889');
+}
+elseif( strstr( $_SERVER["HTTP_HOST"], 'stage' ) )
+{
+    define('DB_NAME', 'nsso_stage');
+    define('DB_USER', 'dbo346256504');
+    define('DB_PASSWORD', 'nssodb100');
+    define('DB_HOST', 'db718.oneandone.co.uk');
+}
+else
+{
 
-/** MySQL database username */
-define('DB_USER', 'root');
+    define('DB_NAME', 'nsso_org');
 
-/** MySQL database password */
-define('DB_PASSWORD', 'root');
+    /** MySQL database username */
+    define('DB_USER', 'root');
 
-/** MySQL hostname */
-define('DB_HOST', 'localhost:8889');
+    /** MySQL database password */
+    define('DB_PASSWORD', 'root');
+
+    /** MySQL hostname */
+    define('DB_HOST', 'localhost:8889');
+}
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
