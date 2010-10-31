@@ -25,7 +25,7 @@ if( strstr( $_SERVER["HTTP_HOST"], 'pkht' ) )
 }
 elseif( strstr( $_SERVER["HTTP_HOST"], 'stage' ) )
 {
-    define('DB_NAME', 'nsso_stage');
+    define('DB_NAME', 'db346256504');
     define('DB_USER', 'dbo346256504');
     define('DB_PASSWORD', 'nssodb100');
     define('DB_HOST', 'db718.oneandone.co.uk');
