@@ -17,7 +17,12 @@
                     if( !empty( $post['post_excerpt'] ) )
                         echo $post['post_excerpt'];
                     else
-                        echo substr( $post['post_content'], 0, 250 ) . '...';
+                    {
+                        if( strlen( $post['post_content'] ) > 250 )
+                            echo substr( $post['post_content'], 0, 250 ) . '...';
+                        else
+                            echo $post['post_content'];
+                    }
                     ?>
                 </p>
                 <div class="news_readmore_link"><a href="<?php echo get_permalink($post["ID"]); ?>">Read more</a></div>
