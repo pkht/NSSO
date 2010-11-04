@@ -55,7 +55,7 @@
             Latest Tweet
         </h1>
         <?php aktt_latest_tweet(); ?>
-        <p><a href="#">Follow NSSO on Twitter</a></p>
+        <p><a href="http://twitter.com/NSSOrchestra" target="_blank">Follow NSSO on Twitter</a></p>
     </div>
 
     <div style="clear:both;"></div>
