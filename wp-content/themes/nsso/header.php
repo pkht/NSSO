@@ -46,7 +46,7 @@
 
     <div id="buttons">
         <a href="<?php print bloginfo('url')?>/contact-us/"><img src="<?php print bloginfo( 'template_url' )?>/images/contact_button.jpg" alt="Contact Us" /></a>
-        <a href="#"><img src="<?php print bloginfo( 'template_url' )?>/images/donate_button.jpg" alt="Contact Us" /></a>
+        <a href="<?php print bloginfo('template_url')?>/docs/NSSO_giftaid_Declaration.pdf" target="_blank"><img src="<?php print bloginfo( 'template_url' )?>/images/donate_button.jpg" alt="Contact Us" /></a>
     </div>
 
     <div id="latest_tweet">

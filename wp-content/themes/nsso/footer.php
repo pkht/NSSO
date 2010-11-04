@@ -42,12 +42,13 @@
 
             <div id="support_us_address">
                 <h2>The National Schools Symphony Orchestra</h2>
-                32 West End<br />
-                Street<br />
-                Somerset<br />
-                BA16 0LW<br />
-                Tel: 01234 567890<br />
-                Email: <a href="mailto:enquires@nsso.org">enquires@nsso.org</a>
+                Butleigh House<br/>
+                Chindit Avenue<br/>
+                Street<br/>
+                Somerset<br/>
+                BA16 0RQ<br/>
+                Tel: 07807 093149<br />
+                Email: <a href="rebeccawoodward@nsso.org">rebeccawoodward@nsso.org</a>
             </div>
         </div>
         <div style="clear:both"></div>
