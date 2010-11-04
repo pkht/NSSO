@@ -27,7 +27,7 @@
 
             <div id="support_us_links">
                 <h1 class="white">Support Us</h1>
-                <a href="#">&pound; Donate to NSSO</a><br />
+                <a href="<?php print bloginfo('template_url')?>/docs/NSSO_giftaid_Declaration.pdf" target="_blank">&pound; Donate to NSSO</a><br />
                 <br />
                 <a href="#">Become a Patron</a><br />
             </div>
