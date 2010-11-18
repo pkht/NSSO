@@ -59,7 +59,7 @@
 <div id="footer-info">
 
     <p>&copy; 2010<?php if( date('Y') > '2010' ) echo ' - '.date('Y');?> The National Schools Symphony Orchestra | <a href="<?php print bloginfo('url')?>/contact-us/">Contact Us</a> | <a href="<?php print bloginfo('url')?>/disclaimer/">Dislaimer</a> | <a href="<?php print bloginfo('url')?>/terms-and-conditions/">Terms and Conditions</a></p>
-    <p>The NSSO Trust is a limited company Registration no. 3373524. Registered Charity no. 1068360</p>
+    <p>The NSSO Trust is a limited company registration no. 3373524. Registered Charity no. 1068360</p>
     <p>Website by <a href="http://www.pkht.co.uk" target="PKHT">PKHT</a> | Powered by <a href="http://wordpress.org" target="Wordpress">Wordpress</a>
 
 </div>
