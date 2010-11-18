@@ -29,7 +29,7 @@
                 <h1 class="white">Support Us</h1>
                 <a href="<?php print bloginfo('template_url')?>/docs/NSSO_giftaid_Declaration.pdf" target="_blank">&pound; Donate to NSSO</a><br />
                 <br />
-                <a href="#">Become a Patron</a><br />
+                <a href="mailto:rebeccawoodward@nsso.org">Become a Patron</a><br />
             </div>
 
             <div id="connect_menu">
@@ -48,7 +48,7 @@
                 Somerset<br/>
                 BA16 0RQ<br/>
                 Tel: 07807 093149<br />
-                Email: <a href="rebeccawoodward@nsso.org">rebeccawoodward@nsso.org</a>
+                Email: <a href="mailto:rebeccawoodward@nsso.org">rebeccawoodward@nsso.org</a>
             </div>
         </div>
         <div style="clear:both"></div>
