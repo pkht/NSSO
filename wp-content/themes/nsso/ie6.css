@@ -18,3 +18,6 @@ div#quick_links_right {
 div#header #latest_tweet {
     margin-top:10px;
 }
+div.home_feature h3 {
+    font-size:14px;
+}
