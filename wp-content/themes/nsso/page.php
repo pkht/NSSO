@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="content">
+<div id="content"<?php if( is_front_page() ) echo 'class="home"'?>>
 
     <?php if ( !is_front_page() ): ?>
         <div class="breadcrumb">

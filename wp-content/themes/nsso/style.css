@@ -11,6 +11,9 @@ h1 {
     font-size:18px;
     font-weight:bold;
 }
+div#content.home h1 {
+    color:#01aef0;
+}
 h1.white {
     color:#ffffff;
 }
@@ -68,7 +71,7 @@ div#main {
 .clear {clear:both}
 /* remove the list style */
 .menu {
-    background:url('images/menu_bkg.jpg') no-repeat;
+    background:url('images/menu_bkg.jpg');
     width:900px;
     height:40px;
     font-size:14px;
