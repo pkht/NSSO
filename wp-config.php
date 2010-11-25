@@ -33,16 +33,16 @@ elseif( strstr( $_SERVER["HTTP_HOST"], 'stage' ) )
 else
 {
 
-    define('DB_NAME', 'nsso_org');
+    define('DB_NAME', 'db348827382');
 
     /** MySQL database username */
-    define('DB_USER', 'root');
+    define('DB_USER', 'dbo348827382');
 
     /** MySQL database password */
-    define('DB_PASSWORD', 'root');
+    define('DB_PASSWORD', 'nssodb100');
 
     /** MySQL hostname */
-    define('DB_HOST', 'localhost:8889');
+    define('DB_HOST', 'db2942.oneandone.co.uk');
 }
 
 /** Database Charset to use in creating database tables. */
