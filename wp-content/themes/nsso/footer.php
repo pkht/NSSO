@@ -28,6 +28,14 @@
             <div id="support_us_links">
                 <h1 class="white">Support Us</h1>
                 <a href="<?php print bloginfo('template_url')?>/docs/NSSO_giftaid_Declaration.pdf" target="_blank">&pound; Donate to NSSO</a><br />
+                
+            </div>
+
+            <div id="accessibility_links">
+                Text: <a href="<?php bloginfo('template_url')?>/setcss.php?mode=normal" id="text_size_1">A</a>&nbsp;
+                <a href="<?php bloginfo('template_url')?>/setcss.php?mode=text_size_1" id="text_size_2">A</a>&nbsp;
+                <a href="<?php bloginfo('template_url')?>/setcss.php?mode=text_size_2" id="text_size_3">A</a>
+                &nbsp;|&nbsp;<a href="<?php bloginfo('template_url')?>/setcss.php?mode=text_only" id="text_only">Text Only</a>
             </div>
 
             <div id="connect_menu">

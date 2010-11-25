@@ -30,7 +30,7 @@ jQuery(document).ready( function() {
             return jQuery('#content').height() - 20;
         else
             return jQuery('#sidebar').height()
-    })
+    });
 
 
     //Set up onclick event for search form
@@ -41,7 +41,9 @@ jQuery(document).ready( function() {
     jQuery('#s').blur( function() {
         if( jQuery(this).val() == '' )
             jQuery(this).val('Search...')
-    })
+    });
+
+    //Set up the links for
 
 
 });

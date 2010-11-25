@@ -20,12 +20,19 @@
 
 	?></title>
 
-<?php wp_head(); ?>
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/general.js"></script>
-<!--[if IE 6]>
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/ie6.css" />
-<![endif]-->
+<?php if( !isset( $_SESSION["css_session"] ) || $_SESSION["css_session"] != "text_only" ): ?>
+    <?php wp_head(); ?>
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+    <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/general.js"></script>
+    <!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/ie6.css" />
+    <![endif]-->
+
+    <?php if( isset( $_SESSION["css_session"] ) && $_SESSION["css_session"] != "normal" ): ?>
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/<?php echo $_SESSION["css_session"];?>.css" />
+    <?php endif; ?>
+<?php endif; ?>
+
 <link rel="Shortcut Icon" href="<?php bloginfo( 'url' ) ?>/favicon.ico">
 <?php if( strstr( $_SERVER["HTTP_HOST"], 'pkht' ) ): ?>
     <base href="http://pkht.local:8888/nsso/" />

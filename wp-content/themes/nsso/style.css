@@ -349,6 +349,21 @@ div#support_us_links a {
 div#support_us_links a:hover {
     text-decoration: underline;
 }
+div#accessibility_links {
+    margin-top:20px;
+}
+div#accessibility_links a {
+    text-decoration: none;
+}
+div#accessibility_links a#text_size_1 {
+    font-size:14px;
+}
+div#accessibility_links a#text_size_2 {
+    font-size:16px;
+}
+div#accessibility_links a#text_size_3 {
+    font-size:18px;
+}
 div#connect_menu {
     margin-top:30px;
 }
