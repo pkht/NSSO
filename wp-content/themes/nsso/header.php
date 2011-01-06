@@ -2,6 +2,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta name="google-site-verification" content="_m2EytIvnqpDg5Ht_UcAPFOBUJ6T_TzhEmEglKSAmZs" />
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
