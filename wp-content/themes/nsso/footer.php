@@ -48,11 +48,9 @@
 
             <div id="support_us_address">
                 <h2>The National Schools Symphony Orchestra</h2>
-                Butleigh House<br/>
-                Chindit Avenue<br/>
-                Street<br/>
-                Somerset<br/>
-                BA16 0RQ<br/>
+                30 Oackthorpe Road<br/>
+                Oxford<br/>
+                OX2 7BE<br/>
                 Tel: 07796 206963<br />
                 Email: <a href="mailto:rebeccawoodward@nsso.org">rebeccawoodward@nsso.org</a>
             </div>
