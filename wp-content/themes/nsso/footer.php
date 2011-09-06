@@ -48,7 +48,7 @@
 
             <div id="support_us_address">
                 <h2>The National Schools Symphony Orchestra</h2>
-                30 Oackthorpe Road<br/>
+                30 Oakthorpe Road<br/>
                 Oxford<br/>
                 OX2 7BE<br/>
                 Tel: 07796 206963<br />
