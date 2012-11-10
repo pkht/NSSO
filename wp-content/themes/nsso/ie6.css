@@ -1,0 +1,23 @@
+.menu ul li {
+    width:0px;
+    white-space:nowrap;
+}
+.menu ul.sub-menu li {
+    padding:10px 0px 0px 0px;
+    height:20px;
+}
+div#news h1 {
+    width:200px;
+}
+div#news img {
+    padding:0px;
+}
+div#quick_links_right {
+    margin-right:20px;
+}
+div#header #latest_tweet {
+    margin-top:10px;
+}
+div.home_feature h3 {
+    font-size:14px;
+}
