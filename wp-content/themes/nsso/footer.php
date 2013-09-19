@@ -41,8 +41,8 @@
             <div id="connect_menu">
                 <h1 class="white">Connect with NSSO</h1>
                 <a href="http://www.flickr.com/people/55421020@N03/" target="_blank"><img src="<?php bloginfo('template_url')?>/images/flickr_icon_large.jpg" alt="Flickr" /></a>
-                <a href="http://www.facebook.com/group.php?gid=2214431622" target="_blank"><img src="<?php bloginfo('template_url')?>/images/facebook_icon_large.jpg" alt="Facebook" /></a>
-                <a href="http://twitter.com/NSSOrchestra" target="_blank"><img src="<?php bloginfo('template_url')?>/images/twitter_icon_large.jpg" alt="Twitter" /></a>
+                <?php /*<a href="http://www.facebook.com/group.php?gid=2214431622" target="_blank"><img src="<?php bloginfo('template_url')?>/images/facebook_icon_large.jpg" alt="Facebook" /></a> */ ?>
+                <?php /*<a href="http://twitter.com/NSSOrchestra" target="_blank"><img src="<?php bloginfo('template_url')?>/images/twitter_icon_large.jpg" alt="Twitter" /></a> */ ?>
                 <a href="http://www.youtube.com/user/NSSOrchestra" target="_blank"><img src="<?php bloginfo('template_url')?>/images/youtube_icon_large.jpg" alt="YouTube" /></a>
             </div>
 

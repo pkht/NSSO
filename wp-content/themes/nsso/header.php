@@ -57,6 +57,7 @@
         <a href="<?php print bloginfo('template_url')?>/docs/NSSO_giftaid_Declaration.pdf" target="_blank"><img src="<?php print bloginfo( 'template_url' )?>/images/donate_button.jpg" alt="Contact Us" /></a>
     </div>
 
+    <?php /*
     <div id="latest_tweet">
         <h1>
             <img src="<?php bloginfo( 'template_url' )?>/images/twitter_icon_small.jpg" alt="Twitter" />
@@ -65,7 +66,8 @@
         <?php aktt_latest_tweet(); ?>
         <p><a href="http://twitter.com/NSSOrchestra" target="_blank">Follow NSSO on Twitter</a></p>
     </div>
-
+    */?>
+    
     <div style="clear:both;"></div>
 
 </div>
